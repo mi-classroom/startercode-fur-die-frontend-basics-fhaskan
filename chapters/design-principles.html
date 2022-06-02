@@ -5,7 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="/chapters/styles/reset.css">
+    <link rel="stylesheet" href="/chapters/styles/fonts.css">
+    <link rel="stylesheet" href="/chapters/styles/main.css">
+    <title>Design Principles</title>
 </head>
 
 <body>
@@ -70,43 +73,35 @@
                 <th>Need</th>
                 <th>Note</th>
             </tr>
-        </thead>
-
-        <tbody>
             <tr>
-                <td rowspan="3">Experience</td>
+                <td>Experience</td>
                 <td>Meaningful</td>
-                <td>Personal Signaficance</td>
+                <td rowspan="4"> personal significance memorable experiences super easy to use, works like I think can be used without difficulty is available and accurate works as programmede </td>
             </tr>
+            <tr>
+                <td>Tasks</td>
+                <td>Pleasurable, <br> Convinient,<br> Usable,<br>Reliable,<br>Functional</td>
 
-            <tr>
-                <td>Pleasurable</td>
-                <td>Memorable Experiences</td>
             </tr>
-
-            <tr>
-                <td>Convinient</td>
-                <td>Super easy to use, works like I think</td>
-            </tr>
-            <tr>
-                <td rowspan="3">Tasks</td>
-                <td>Usable</td>
-                <td>can be used without diffucutly </td>
-            </tr>
-            <tr>
-                <td>Reliable</td>
-                <td>is avaible and accurate</td>
-            </tr>
-            <tr>
-                <td>Functional</td>
-                <td>works as programmed</td>
-            </tr>
-        </tbody>
+            </tbody>
     </table>
 
-
-
-
+    <form>
+        <fieldset>
+            <legend>Formulare</legend>
+            <label for="Name">Vorname</label><br>
+            <input type="text" name="vorname" placeholder="Vorname"><br>
+            <label for="Email">Email</label><br>
+            <input type="email" name="email" placeholder="Email"><br>
+            <label for="profilbild">Profilbild</label><br>
+            <input type="file"><br>
+            <textarea rows="10" cols="30" name="texteingabe" placeholder="Texteingabe"></textarea><br>
+            <label for="Datenschutzerklärung">Ich habe die Datenschutzerklärung gelesen und bin damit einverstanden</label><br>
+            <input type="checkbox"><br>
+            <input type="submit" name="senden" value="Senden">
+            <input type="reset" name="zurücksetzen" value="Zurücksetzen">
+        </fieldset>
+    </form>
 </body>
 
 </html>
