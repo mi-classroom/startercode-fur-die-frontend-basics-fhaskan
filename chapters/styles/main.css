@@ -1,0 +1,56 @@
+body {
+    box-sizing: border-box;
+    padding: 1rem;
+    font-family: IBM-Plex-Serif;
+    font-size: 17px;
+}
+
+h1,
+h2,
+h3,
+p,
+dd {
+    margin-bottom: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: bold;
+    color: darkslategrey;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+blockquote {
+    font-style: italic;
+    color: burlywood;
+}
+
+dt {
+    color: darkslategrey;
+    font-weight: bold;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+form {
+    margin-top: 40px;
+    background-color: var(--light2);
+    border: solid 0.5px;
+    border-radius: 15px;
+    width: 50%;
+    padding: 5px;
+    font-size: 15px;
+}
